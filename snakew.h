@@ -20,6 +20,9 @@ public:
     bool done;
     ~SnakeW();
 
+signals:
+    bool hidden();
+
 private slots:
     void on_up_clicked();
     void on_down_clicked();

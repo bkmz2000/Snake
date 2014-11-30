@@ -103,11 +103,9 @@ void SnakeW::on_left_clicked()
 
 void SnakeW::gameLoop()
 {
-    qDebug()<<done;
     if(field.update() == true)
     {
         done = true;
-
         hide();
     }
     repaint();

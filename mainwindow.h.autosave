@@ -15,6 +15,7 @@ class MainWindow : public QMainWindow
 
 private slots:
     void gameOver();
+    
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
